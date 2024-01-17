@@ -26,6 +26,7 @@
     width: 174px;
     height: 52px;
     border: 0;
+    margin-top: 70px;
 }
 
 /*-----------header area style here-------------*/
@@ -35,6 +36,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    border:2px solid black;
 }
 
 nav ul {
@@ -55,7 +57,9 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 400;
 }
-
+.logo-title{
+   display: flex;
+}
 .logo-title h4 {
     color: #131318;
     font-size: 36px;
@@ -108,15 +112,15 @@ nav ul li a {
 
 .header-buttom-area {
     display: flex;
-
+  
 }
 
 .input-form {
     margin: auto;
-    padding: 16px;
-    margin-bottom: 80px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    height: 70px;
+    width:750px;
 }
 
 .my-form input {
@@ -128,11 +132,14 @@ nav ul li a {
     border-radius: 8px;
     background: #FFF;
     border: none;
+    position: relative;
+    top:-62px;
+    left:10px;
 }
 
 #my-option {
-    margin-right: 8px;
-    margin-left: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
     width: 174px;
     height: 52px;
     text-align: center;
@@ -142,8 +149,26 @@ nav ul li a {
     border-radius: 8px;
     background: #FFF;
     border: none;
+    position: relative;
+    top:-62px;
+    left:10px;
 }
 
+.btn-header-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: 0;
+    margin-top: 70px;
+    position: relative;
+    top:-62px;
+    left:10px;
+}
 
 
 
@@ -413,6 +438,7 @@ nav ul li a {
 .Simple-Perfect {
     margin-top: 100px;
     border: 2px solid rebeccapurple;
+    display: flex;
 }
 
 .Simple-Perfect .popular-tour-content h1 {
@@ -427,4 +453,187 @@ nav ul li a {
     width: 518px;
     color: #131318;
     margin-left: 30px;
+}
+
+.Simple-Perfect-img {
+    background-image: url('Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 424px;
+    border: 2px solid red;
+}
+
+
+/*-------Simple-Perfect part style-------*/
+
+
+.news-letter {
+    border: 2px solid tomato;
+    margin-top: 50px;
+}
+
+.Simple-Perfect-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 140px;
+    margin-left: 140px;
+    border: 2px solid rgb(54, 4, 136);
+    display: inline-block;
+}
+
+
+/*-------news-letter section style-------*/
+
+.news-letter{
+    display: flex;
+}
+
+
+.news-letter-card {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-letter-area {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.news-letter-area h3 {
+    color: #131318;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.news-letter-area p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px ;
+   
+}
+.news-letter-area hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.news-letter-area form input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-top:20px;
+    border:0;
+   
+}
+.news-letter-btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    border: 0;
+    margin-top: 70px;
+}
+
+.news-letter-right{
+    background:url('Images/Rectangle 8 (1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 672px;
+    height: 422px;
+    border:4px solid red;
+    margin-left: 80px;
+}
+
+.news-letter-box{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    position: relative;
+    top:237px;
+    left:321px;
+}
+
+.news-letter-box h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.news-letter-box h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+
+
+/*-------fotter-area section style-------*/
+
+
+.fotter-area{
+    border:4px solid;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+}
+.fotter-are-title{
+    text-align: center;
+    margin: auto;
+}
+
+
+.fotter-title{
+   display: flex;
+   justify-content: center;
+   padding-top: 110px;
+}
+
+.fotter-title h4{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+
+.fotter-are-title p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+    width:770px;
+    margin: 10px auto;
+}
+
+.fotter-are-title .icon{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.copyright h5{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+    padding-bottom: 110px;
 }
